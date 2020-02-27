@@ -24,6 +24,7 @@ public class FormularioAutobus {
 		a.setCilindrada(teclado.nextInt());
 		System.out.println("Numero de plazas:");
 		a.setNumeroDePlazas(teclado.nextInt());
+		teclado.nextLine();
 		System.out.println("Categoria ambiental:");
 		a.setCategoriaAmbiental(teclado.nextLine());
 		System.out.println("¿Es publico?: (Si o No)");

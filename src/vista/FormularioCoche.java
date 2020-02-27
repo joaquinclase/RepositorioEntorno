@@ -21,10 +21,12 @@ public class FormularioCoche {
 		co.setCilindrada(teclado.nextInt());
 		System.out.println("Numero de plazas:");
 		co.setNumeroDePlazas(teclado.nextInt());
+		teclado.nextLine();
 		System.out.println("Categoria ambiental:");
 		co.setCategoriaAmbiental(teclado.nextLine());
 		System.out.println("Numero de puertas:");
 		co.setNumeroDePuertas(teclado.nextInt());
+		teclado.nextLine();
 		System.out.println("Descapotable:(SI O NO)");
 		if("si".equals(teclado.nextLine())) {
 			co.setDescapotable(true);

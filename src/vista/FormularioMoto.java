@@ -24,6 +24,7 @@ public class FormularioMoto {
 		m.setCilindrada(teclado.nextInt());
 		System.out.println("Numero de plazas:");
 		m.setNumeroDePlazas(teclado.nextInt());
+		teclado.nextLine();
 		System.out.println("Categoria ambiental:");
 		m.setCategoriaAmbiental(teclado.nextLine());
 		do {
