@@ -45,7 +45,7 @@ public class Menu {
 			a=au.pideDatos();
 			au.muestraDatos(a);
 		case 0:
-			System.out.println("Adios");
+			System.out.println("Adios.");
 			break;
 			
 		}
