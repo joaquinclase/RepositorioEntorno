@@ -1,10 +1,17 @@
 package vista;
 import modelo.Camion;
 import java.util.Scanner;
-
+/**
+ * clase que contiene los metodos de  clase camion
+ * @author daniel.salas
+ *
+ */
 public class FormularioCamion {
 	Scanner teclado = new Scanner(System.in);
-	
+	/**
+	 * metodo que devuelve los datos de un camion
+	 * @return ca,que es un conjunto de setters
+	 */
 	public Camion pideDatos() {
 		Camion ca = new Camion();
 		
@@ -30,7 +37,10 @@ public class FormularioCamion {
 		return ca;
 		
 	}
-	
+	/**
+	 * muestra los datos del camion
+	 * @param ca
+	 */
 	public void muestraDatos(Camion ca) {
 		System.out.println("Marca: "+ca.getMarca());
 		System.out.println("Modelo: "+ca.getModelo());

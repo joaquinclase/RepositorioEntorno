@@ -2,9 +2,17 @@ package vista;
 import modelo.Camion;
 import modelo.Coche;
 import java.util.Scanner;
+/**
+ * clase que contiene los metodos de clase coche
+ * @author daniel.salas
+ *
+ */
 public class FormularioCoche {
 	Scanner teclado = new Scanner(System.in);
-	
+	/**
+	 * metodo que pide datos de un coche
+	 * @return co,que es un conjunto de setters
+	 */
 	public Coche pideDatos() {
 		Coche co = new Coche();
 		
@@ -35,6 +43,10 @@ public class FormularioCoche {
 		}
 		return co;
 	}
+	/**
+	 * Muestra los datos del coche
+	 * @param co
+	 */
 	public void muestraDatos(Coche co) {
 		System.out.println("Marca: "+co.getMarca());
 		System.out.println("Modelo: "+co.getModelo());

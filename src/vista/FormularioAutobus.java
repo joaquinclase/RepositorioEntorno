@@ -4,14 +4,19 @@ import modelo.Autobus;
 import modelo.Moto;
 
 import java.util.Scanner;
-
+/**
+ * clase que contiene los metodos de la clase autobus
+ * @author daniel.salas
+ *
+ */
 public class FormularioAutobus {
 	Scanner teclado = new Scanner(System.in);
+	/**
+	 * metodo que pide datos de un autobus
+	 * @return a,que es un conjunto de setters
+	 */
 	public Autobus pideDatos() {
 		Autobus a = new Autobus();
-		
-		
-		
 		System.out.println("Cual es la marca del vehiculo:");
 		a.setMarca(teclado.nextLine());
 		System.out.println("Modelo del vehiculo:");
@@ -47,6 +52,10 @@ public class FormularioAutobus {
 		}
 		return a;
 	}
+	/**
+	 * metodo que devuelve los datos del autobus
+	 * @param a
+	 */
 	public void muestraDatos(Autobus a) {
 		System.out.println("Marca: "+a.getMarca());
 		System.out.println("Modelo: "+a.getModelo());

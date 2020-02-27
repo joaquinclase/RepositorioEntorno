@@ -7,7 +7,15 @@ import modelo.Camion;
 import modelo.Coche;
 import modelo.Moto;
 
+/**
+ * Clase que contiene el metodo menu
+ * @author daniel.salas
+ *
+ */
 public class Menu {
+	/**
+	 * Metodo menu que pide datos y muestra los datos
+	 */
 	public void menu() {
 	int opcion;
 	FormularioCoche c=new FormularioCoche();

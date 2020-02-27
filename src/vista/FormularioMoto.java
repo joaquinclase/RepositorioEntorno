@@ -1,14 +1,18 @@
 package vista;
-
 import modelo.Camion;
 import modelo.Moto;
 import java.util.Scanner;
-
-
-
+/**
+ * clase que contiene los metodos de la clase moto
+ * @author daniel.salas
+ *
+ */
 public class FormularioMoto {
 	Scanner teclado = new Scanner(System.in);
-	
+	/**
+	 * metodo que pide datos de una moto
+	 * @return m,que es un conjunto de setters
+	 */
 	public Moto pideDatos() {
 		Moto m = new Moto();
 		
@@ -35,6 +39,10 @@ public class FormularioMoto {
 		m.setNumeroDeRuedas(teclado.nextInt());
 		return m;
 	}
+		/**
+		 * muestra los datos de la moto
+		 * @param m
+		 */
 		public void muestraDatos(Moto m) {
 			System.out.println("Marca: "+m.getMarca());
 			System.out.println("Modelo: "+m.getModelo());
