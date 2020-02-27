@@ -16,7 +16,6 @@ public class FormularioCamion {
 		ca.setColor(teclado.nextLine());
 		System.out.println("Tipo de combustible:");
 		ca.setTipoDeCombustible(teclado.nextLine());
-		teclado.nextLine();
 		System.out.println("Cilindrada:");
 		ca.setCilindrada(teclado.nextInt());
 		System.out.println("Numero de plazas:");

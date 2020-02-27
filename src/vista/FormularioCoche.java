@@ -44,7 +44,7 @@ public class FormularioCoche {
 		System.out.println("Numero de Plazas: "+co.getNumeroDePlazas());
 		System.out.println("Categoria Ambiental: "+co.getCategoriaAmbiental());
 		System.out.println("Numero de Puertas: "+co.getNumeroDePuertas());
-		System.out.println("Galibo: "+co.isDescapotable());
+		System.out.println("Descapotable: "+co.isDescapotable());
 		
 	}	
 	
